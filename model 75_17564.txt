@@ -1,6 +1,4 @@
 Test size: 0.2
-PCA n = 6
-StandardScaler
 
 Random Forest Parameters:
 "bootstrap": True,
