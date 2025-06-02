@@ -2,7 +2,7 @@ obs,salary_category
 1281,High
 1282,High
 1283,High
-1284,Medium
+1284,Low
 1285,High
 1286,Medium
 1287,High
@@ -318,7 +318,7 @@ obs,salary_category
 1597,High
 1598,Low
 1599,High
-1600,Medium
+1600,High
 1601,Medium
 1602,Medium
 1603,Medium
@@ -502,7 +502,7 @@ obs,salary_category
 1781,Low
 1782,Medium
 1783,Low
-1784,Medium
+1784,Low
 1785,Low
 1786,Low
 1787,Medium
@@ -541,7 +541,7 @@ obs,salary_category
 1820,Low
 1821,Low
 1822,Low
-1823,Medium
+1823,High
 1824,Medium
 1825,Low
 1826,Low
