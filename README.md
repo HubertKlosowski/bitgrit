@@ -164,7 +164,6 @@ Użyto `stack_method="predict_proba"` i `cv=6`.
 - RAM: 16 GB
 - CPU: Intel i7-9700k
 - GPU: (opcjonalnie) NVIDIA RTX 2080
-- Dysk: min. 5 GB wolnego miejsca
 
 ---
 
@@ -173,7 +172,7 @@ Użyto `stack_method="predict_proba"` i `cv=6`.
 - Jakie pliki są używane?
   - `train.csv`, `test.csv`
 - Jak są przetwarzane?
-  - Przez funkcję `preprocess_data()` w `main.py`
+  - Przez notebook `know_data.ipynb`
 - Algorytm i jego hiperparametry?
   - Opisano powyżej
 - Inne komentarze:
