@@ -9,14 +9,14 @@ This repository contains the complete solution for the BitGrit competition, impl
 ├── /data
 │   ├── train.csv           # Original training dataset
 │   └── test.csv            # Original test dataset
-├── /prepared
+├── /prepared               # Automatically created folder 
 │   ├── train.csv           # Preprocessed training dataset
 │   └── test.csv            # Preprocessed test dataset
 ├── know_data.ipynb         # Data preprocessing and feature engineering
 ├── models.ipynb            # Model training, optimization, and evaluation
 ├── requirements.txt        # Required Python libraries and versions
 ├── the_best.csv            # Final predictions on test set
-└── README.md               # This file
+├── README.md               # This file
 └── model 77_75.txt         # LightGBM, XGBoost, Catboost parametrs from the best solution
 ```
 
@@ -84,6 +84,7 @@ jupyter notebook know_data.ipynb
 - Performs data cleaning and preprocessing
 - Engineers new features
 - Handles missing values
+- Creates `/prepared` folder (if does not exist)
 - Saves processed data to `/prepared/train.csv` and `/prepared/test.csv`
 
 ### 3. Model Training and Prediction
