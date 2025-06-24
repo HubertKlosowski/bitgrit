@@ -17,7 +17,7 @@ This repository contains the complete solution for the BitGrit competition, impl
 ├── requirements.txt        # Required Python libraries and versions
 ├── the_best.csv            # Final predictions on test set
 └── README.md               # This file
-└── model 77_75.md          # LightGBM, XGBoost, Catboost parametrs from the best solution
+└── model 77_75.txt         # LightGBM, XGBoost, Catboost parametrs from the best solution
 ```
 
 ## Environment Details
@@ -25,7 +25,7 @@ This repository contains the complete solution for the BitGrit competition, impl
 ### System Configuration
 - **Operating System**: Windows 11 Education Version 24H2 OS build: 26100.4351
 - **RAM**: 32 GB Patriot 4133 MHz
-- **Storage**: 1.5 GB free space
+- **Storage**: 1.75 GB free space
 - **CPU**: Intel Core i7-9700K
 - **GPU**: NVIDIA RTX 2080
 
@@ -225,9 +225,8 @@ The `know_data.ipynb` notebook performs the following preprocessing steps:
 
 ### Hyperparameter Optimization
 - **Method**: optuna with BasePruner and TPESampler
-- **Cross-Validation**: 10-fold stratified cross-validation
+- **Cross-Validation**: 5-fold stratified cross-validation
 - **Evaluation Metric**: accuracy
-- **Optimization Strategy**: Systematic search across parameter space
 
 ## Model Evaluation
 
@@ -238,9 +237,8 @@ The `know_data.ipynb` notebook performs the following preprocessing steps:
 - **Classification Report**: Model performance across most important metrics
 
 ## Execution Time
-- **Data Preprocessing notebook**: Approximately [X] minutes
-- **Model Training notebook**: Approximately [Y] minutes
-- **Total Runtime**: Approximately [Z] minutes on specified hardware
+- **Data Preprocessing notebook**: Approximately 18 to 22 seconds
+- **Model Training notebook (without hyperparameter optimization)**: Approximately 90 seconds
 
 ### Model Performance
 The StackingClassifier achieved the best performance by combining the strengths of different gradient boosting algorithms. Each base model captures different aspects of the data patterns, while the meta-learner optimally combines their predictions.
